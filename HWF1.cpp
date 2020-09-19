@@ -2,7 +2,6 @@
 #include <time.h>
 using namespace std ;
 int Guess ( int ) ;
-
 int main  ( )
 {
 	int num , Round ;
@@ -42,7 +41,7 @@ int Guess ( int num )
 			cout << " The Secret Number Is Higher " << endl ;
 			cout << " " << endl ;
 		}
-		}
+	}
 	round = i ;
 	return ( round ) ; 
 }

@@ -23,26 +23,26 @@ int main  ( )
 
 int Guess ( int num )
 {
-    int Data , round , i ;
+	int Data , round , i ;
 
-    for (i = 1 ; i >= 0 ; i ++) {
-        cout << " Guess The Number " << i << " ( 1 to 10 )  :" ;
-        cin >> Data ;
+		for (i = 1 ; i >= 0 ; i ++) {
+			cout << " Guess The Number " << i << " ( 1 to 10 )  :" ;
+			cin >> Data ;
         
-        if (num == Data){
-            break ;
-        }
+		if (num == Data){
+			break ;
+		}
 
-        else if (num > Data) {
-            cout << " The Secret Number Is Lower " << endl ;
-            cout << " " << endl ;
-        }
-
-        else if (num < Data) {
-            cout << " The Secret Number Is Higher " << endl ;
-            cout << " " << endl ;
-        }
-    }
+		else if (num > Data) {
+			cout << " The Secret Number Is Lower " << endl ;
+			cout << " " << endl ;
+		}
+		
+		else if (num < Data) {
+			cout << " The Secret Number Is Higher " << endl ;
+			cout << " " << endl ;
+		}
+		}
 	round = i ;
 	return ( round ) ; 
 }
